@@ -14,7 +14,7 @@
 ```
 1- mkdir ~/part1a
 
-2- cd ~/my_build
+2- cd ~/part1a
 
 3- touch Dockerfile
  
