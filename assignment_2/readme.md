@@ -63,6 +63,7 @@ docker run -ti priyank   /bin/bash
 
 docker rm -f priyank
 
+```
 
 ## Output
 
