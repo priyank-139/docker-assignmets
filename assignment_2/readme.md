@@ -21,6 +21,9 @@
 4- vim Dockerfile
 
 ```
+
+```
+
 # Building IMAGE
 
 FROM  ubuntu
@@ -38,6 +41,7 @@ RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN npm install -g http-server
 
 ```
+
 5- image build from Dockerfile 
 
 ```
@@ -87,6 +91,9 @@ docker rm -f priyank
 4- vim Dockerfile
 
 ```
+
+```
+
 # Building IMAGE
 
 FROM alpine
@@ -103,6 +110,7 @@ RUN apk add nodejs
 
 CMD ["/bin/bash"]
 
+```
 
 ```
 5- image build from Dockerfile 
