@@ -66,6 +66,14 @@ Data
 
 Create a user name mohan and cahnge the ownership of the directory name with mohan
 
+```
+
+adduser mohan
+
+```
+
+
+
 ## outputs 
 
 <img src=./snaps/3.png>

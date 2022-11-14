@@ -22,12 +22,19 @@
 
 ```
 # Building IMAGE
+
 FROM  ubuntu
+
 MAINTAINER Priyank Upadhyay
+
 RUN apt-get update
+
 RUN apt install nodejs -y
+
 RUN apt install nodejs npm -y
+
 RUN ln -s /usr/bin/nodejs /usr/bin/node
+
 RUN npm install -g http-server
 
 ```
@@ -81,12 +88,19 @@ docker rm -f priyank
 
 ```
 # Building IMAGE
+
 FROM alpine
+
 MAINTAINER Priyank Upadhyay
+
 WORKDIR /usr/app
+
 COPY ./ ./usr/app
+
 RUN apk update
+
 RUN apk add nodejs
+
 CMD ["/bin/bash"]
 
 
